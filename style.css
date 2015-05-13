@@ -1,0 +1,58 @@
+body {
+     color:red;
+     font-size:1em;
+     font-family: "Open San", "Helvetica Neue", sans-serif;
+
+}
+body section ul{
+     text-align: center;
+     width: 15%;
+     margin:0 auto;
+}
+section {
+	text-align: center;
+}
+
+#top-banner{
+	background-image: url('photo.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 6em 0;
+}
+#top-banner p{
+	text-align: center;
+	font-size: 4em;
+}
+#navigation ul{
+    height:100px;
+    margin: 0;
+    padding:0;
+    list-style-type:none;
+}
+#navigation a {
+    display: block;
+
+}
+#navigation li{
+	height:25px;
+	width:140px;
+	padding:8px 0;
+	float:left;
+	background-color: grey;
+	border-radius: 10px;
+	color: blue;
+	text-align: center;
+}
+
+#navigation li a{
+	text-decoration: none
+	color:yellow;
+}
+
+#navigation li a:visited:hover{
+	color:blue;
+}
+
+
+
+
